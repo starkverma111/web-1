@@ -1,0 +1,72 @@
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background-color: #eff2f6;
+      }
+
+      @font-face {
+        font-family: "cotta";
+        src: url("../font/cotta.otf");
+      }
+
+      @font-face {
+        font-family: "omega";
+        src: url("../font/omega.ttf");
+      }
+
+      h1,
+      h2 {
+        font-family: "omega";
+        font-weight: 900;
+        font-size: 2.5rem;
+        letter-spacing: 2.1px;
+      }
+
+      h3 {
+        font-family: "omega";
+        font-weight: 600;
+        font-size: 1.4rem;
+        letter-spacing: 0.11rem;
+      }
+
+      .card-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.96rem;
+      }
+
+      p {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.1rem;
+      }
+
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      .img-cover {
+        object-fit: cover;
+        object-position: center;
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+      }
+
+      .form-control:focus {
+        border-color: #7e8287bf;
+        box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(132 134 137 / 48%);
+      }
+
+      input,
+      input::placeholder {
+        font-size: 1rem;
+      }
+
+      .btn {
+        font-family: "cotta";
+        font-weight: 500;
+        letter-spacing: 0.8px;
+        border-radius: .3rem;
+      }
